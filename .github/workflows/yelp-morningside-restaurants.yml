@@ -1,0 +1,33 @@
+name: Fetch Morningside Heights Restaurants
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 10 * * 1" # Mondays 10:00 UTC (weekly)
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run Yelp script
+        env:
+          YELP_API_KEY: ${{ secrets.YELP_API_KEY }}
+        run: python scripts/yelp_morningside_restaurants.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/morningside_restaurants.json
+          git commit -m "Update Morningside Heights restaurants" || echo "No changes"
+          git push

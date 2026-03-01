@@ -1,5 +1,8 @@
 name: Fetch Morningside Heights Restaurants
 
+permissions:
+  contents: write
+  
 on:
   workflow_dispatch: {}
   schedule:

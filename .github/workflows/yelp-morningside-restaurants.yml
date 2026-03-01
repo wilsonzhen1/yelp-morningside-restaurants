@@ -1,13 +1,13 @@
 name: Fetch Morningside Heights Restaurants
-
-permissions:
-  contents: write
   
 on:
   workflow_dispatch: {}
   schedule:
     - cron: "0 10 * * 1" # Mondays 10:00 UTC (weekly)
 
+permissions:
+  contents: write
+  
 jobs:
   fetch:
     runs-on: ubuntu-latest

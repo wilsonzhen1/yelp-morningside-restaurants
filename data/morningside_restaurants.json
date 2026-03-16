@@ -12,7 +12,7 @@
   },
   "radius_m": 350,
   "categories": "restaurants",
-  "count_unique": 526,
+  "count_unique": 525,
   "businesses": [
     {
       "cuisine": [
@@ -1071,14 +1071,6 @@
     },
     {
       "cuisine": [
-        "Comfort Food",
-        "Salad",
-        "Caribbean"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
         "Convenience Stores",
         "Delis"
       ],
@@ -1387,16 +1379,16 @@
     },
     {
       "cuisine": [
+        "Delis"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
         "Delis",
         "Cafeteria"
       ],
       "price": "$"
-    },
-    {
-      "cuisine": [
-        "Delis"
-      ],
-      "price": null
     },
     {
       "cuisine": [
@@ -1755,14 +1747,14 @@
     {
       "cuisine": [
         "Food Delivery Services",
-        "Seafood"
+        "Pizza"
       ],
       "price": null
     },
     {
       "cuisine": [
         "Food Delivery Services",
-        "Pizza"
+        "Seafood"
       ],
       "price": null
     },
@@ -2280,6 +2272,14 @@
     },
     {
       "cuisine": [
+        "Italian",
+        "Caribbean",
+        "Latin American"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
         "Japanese",
         "Sushi Bars"
       ],
@@ -2717,16 +2717,16 @@
     {
       "cuisine": [
         "New American",
-        "Gluten-Free",
-        "Vegetarian"
+        "Cocktail Bars",
+        "Breakfast & Brunch"
       ],
       "price": "$$"
     },
     {
       "cuisine": [
         "New American",
-        "Cocktail Bars",
-        "Breakfast & Brunch"
+        "Gluten-Free",
+        "Vegetarian"
       ],
       "price": "$$"
     },
@@ -2851,13 +2851,13 @@
       "cuisine": [
         "Pizza"
       ],
-      "price": "$"
+      "price": null
     },
     {
       "cuisine": [
         "Pizza"
       ],
-      "price": null
+      "price": "$"
     },
     {
       "cuisine": [
@@ -3413,13 +3413,6 @@
         "Sandwiches"
       ],
       "price": null
-    },
-    {
-      "cuisine": [
-        "Soup",
-        "Delis"
-      ],
-      "price": "$$"
     },
     {
       "cuisine": [

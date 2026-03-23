@@ -12,7 +12,7 @@
   },
   "radius_m": 350,
   "categories": "restaurants",
-  "count_unique": 525,
+  "count_unique": 527,
   "businesses": [
     {
       "cuisine": [
@@ -1379,16 +1379,16 @@
     },
     {
       "cuisine": [
-        "Delis"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
         "Delis",
         "Cafeteria"
       ],
       "price": "$"
+    },
+    {
+      "cuisine": [
+        "Delis"
+      ],
+      "price": null
     },
     {
       "cuisine": [
@@ -1494,14 +1494,14 @@
     },
     {
       "cuisine": [
-        "Dominican",
-        "Seafood"
+        "Dominican"
       ],
       "price": null
     },
     {
       "cuisine": [
-        "Dominican"
+        "Dominican",
+        "Seafood"
       ],
       "price": null
     },
@@ -3137,6 +3137,12 @@
     },
     {
       "cuisine": [
+        "Restaurants"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
         "Salad",
         "Wraps"
       ],
@@ -3273,6 +3279,14 @@
         "Seafood"
       ],
       "price": "$$"
+    },
+    {
+      "cuisine": [
+        "Seafood",
+        "American",
+        "Chicken Shop"
+      ],
+      "price": null
     },
     {
       "cuisine": [

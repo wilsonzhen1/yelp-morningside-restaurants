@@ -12,7 +12,7 @@
   },
   "radius_m": 350,
   "categories": "restaurants",
-  "count_unique": 527,
+  "count_unique": 526,
   "businesses": [
     {
       "cuisine": [
@@ -127,15 +127,15 @@
     },
     {
       "cuisine": [
-        "American"
+        "American",
+        "Wraps",
+        "Pizza"
       ],
       "price": null
     },
     {
       "cuisine": [
-        "American",
-        "Wraps",
-        "Pizza"
+        "American"
       ],
       "price": null
     },
@@ -482,14 +482,6 @@
     {
       "cuisine": [
         "Cafes",
-        "Wine Bars",
-        "Venues & Event Spaces"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
-        "Cafes",
         "French",
         "New American"
       ],
@@ -814,19 +806,19 @@
     },
     {
       "cuisine": [
+        "Chinese",
+        "Asian Fusion"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
         "Chinese"
       ],
       "price": "$"
     },
     {
       "cuisine": [
-        "Chinese",
-        "Asian Fusion"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
         "Chinese"
       ],
       "price": null
@@ -840,13 +832,6 @@
     {
       "cuisine": [
         "Chinese"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
-        "Chinese",
-        "Asian Fusion"
       ],
       "price": null
     },
@@ -861,6 +846,13 @@
         "Chinese",
         "Seafood",
         "Chicken Shop"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
+        "Chinese",
+        "Asian Fusion"
       ],
       "price": null
     },
@@ -1165,16 +1157,16 @@
     },
     {
       "cuisine": [
-        "Delis"
-      ],
-      "price": "$$"
-    },
-    {
-      "cuisine": [
         "Delis",
         "Sandwiches"
       ],
       "price": null
+    },
+    {
+      "cuisine": [
+        "Delis"
+      ],
+      "price": "$$"
     },
     {
       "cuisine": [
@@ -1193,15 +1185,15 @@
     {
       "cuisine": [
         "Delis",
-        "Grocery",
-        "Breakfast & Brunch"
+        "Sandwiches"
       ],
       "price": null
     },
     {
       "cuisine": [
         "Delis",
-        "Sandwiches"
+        "Grocery",
+        "Breakfast & Brunch"
       ],
       "price": null
     },
@@ -1366,14 +1358,14 @@
     {
       "cuisine": [
         "Delis",
-        "Grocery"
+        "Sandwiches"
       ],
       "price": null
     },
     {
       "cuisine": [
         "Delis",
-        "Sandwiches"
+        "Grocery"
       ],
       "price": null
     },
@@ -1466,14 +1458,14 @@
     {
       "cuisine": [
         "Delis",
-        "Breakfast & Brunch"
+        "Sandwiches"
       ],
       "price": null
     },
     {
       "cuisine": [
         "Delis",
-        "Sandwiches"
+        "Breakfast & Brunch"
       ],
       "price": null
     },
@@ -1494,14 +1486,14 @@
     },
     {
       "cuisine": [
-        "Dominican"
+        "Dominican",
+        "Seafood"
       ],
       "price": null
     },
     {
       "cuisine": [
-        "Dominican",
-        "Seafood"
+        "Dominican"
       ],
       "price": null
     },
@@ -1650,17 +1642,17 @@
     {
       "cuisine": [
         "Fast Food",
-        "Chinese"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
-        "Fast Food",
         "Burgers",
         "Coffee & Tea"
       ],
       "price": "$"
+    },
+    {
+      "cuisine": [
+        "Fast Food",
+        "Chinese"
+      ],
+      "price": null
     },
     {
       "cuisine": [
@@ -1724,15 +1716,15 @@
     {
       "cuisine": [
         "Food Delivery Services",
-        "Beer, Wine & Spirits",
-        "Delis"
+        "Asian Fusion"
       ],
       "price": null
     },
     {
       "cuisine": [
         "Food Delivery Services",
-        "Asian Fusion"
+        "Beer, Wine & Spirits",
+        "Delis"
       ],
       "price": null
     },
@@ -1761,13 +1753,6 @@
     {
       "cuisine": [
         "Food Delivery Services",
-        "Sandwiches"
-      ],
-      "price": null
-    },
-    {
-      "cuisine": [
-        "Food Delivery Services",
         "American"
       ],
       "price": null
@@ -1784,6 +1769,13 @@
       "cuisine": [
         "Food Delivery Services",
         "Cheesesteaks",
+        "Sandwiches"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
+        "Food Delivery Services",
         "Sandwiches"
       ],
       "price": null
@@ -2009,15 +2001,15 @@
     {
       "cuisine": [
         "Halal",
-        "Salad",
-        "Chicken Wings"
+        "Food Stands"
       ],
       "price": null
     },
     {
       "cuisine": [
         "Halal",
-        "Food Stands"
+        "Salad",
+        "Chicken Wings"
       ],
       "price": null
     },
@@ -2567,14 +2559,14 @@
     },
     {
       "cuisine": [
-        "Mexican"
+        "Mexican",
+        "Fast Food"
       ],
       "price": null
     },
     {
       "cuisine": [
-        "Mexican",
-        "Fast Food"
+        "Mexican"
       ],
       "price": null
     },
@@ -2851,13 +2843,13 @@
       "cuisine": [
         "Pizza"
       ],
-      "price": null
+      "price": "$"
     },
     {
       "cuisine": [
         "Pizza"
       ],
-      "price": "$"
+      "price": null
     },
     {
       "cuisine": [
@@ -2869,17 +2861,17 @@
     },
     {
       "cuisine": [
+        "Pizza"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
         "Pizza",
         "Chicken Wings",
         "Sandwiches"
       ],
       "price": "$"
-    },
-    {
-      "cuisine": [
-        "Pizza"
-      ],
-      "price": null
     },
     {
       "cuisine": [
@@ -3362,12 +3354,6 @@
     },
     {
       "cuisine": [
-        "Senegalese"
-      ],
-      "price": "$$"
-    },
-    {
-      "cuisine": [
         "Shanghainese",
         "Dim Sum",
         "Noodles"
@@ -3379,6 +3365,14 @@
         "Shanghainese",
         "Dim Sum",
         "Noodles"
+      ],
+      "price": null
+    },
+    {
+      "cuisine": [
+        "Sicilian",
+        "Pizza",
+        "Gelato"
       ],
       "price": null
     },
